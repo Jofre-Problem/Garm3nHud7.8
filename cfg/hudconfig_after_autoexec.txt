@@ -1,0 +1,15 @@
+// Exec'd after autoexec.cfg
+
+// masercomfig breaks "incrementvar mat_antialias -100 100 1", use toggle instead
+alias reload_dashboarddimmer "wait 5; showconsole; wait; toggle mat_antialias 0 1; hideconsole; wait 5; exec user/antialias"
+
+alias reload_dashboarddimmer_nocomfig "wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1"
+
+// Changes reload_dashboarddimmer to non mastercomfig version if mastercomfig isn't installed
+version_comfig
+
+// See if user has disabled the reload
+prevent_reload?
+
+// Toggles mat_antialias back and forth to reload DasboardDimmer HUD element (no other way to do this)
+reload_dashboarddimmer

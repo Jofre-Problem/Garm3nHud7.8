@@ -1,0 +1,1 @@
+#base "../min-def/extra/transparentviewmodel.res"

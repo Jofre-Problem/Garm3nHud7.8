@@ -1,0 +1,409 @@
+[BG:#1E1E1E]
+Window();
+[Border:0, FG:#1C1B1C]
+Banner("4plug/4plug_images/managers/thumbnailBanner.png", "auto", "topleft");
+Banner("4plug/4plug_images/managers/thumbnailBanner_v2.png", "auto", "topleft");
+
+Banner("4plug/4plug_images/color_seccion.png", "auto", "topleft");
+
+
+[Border:0, FG:#1C1B1C]
+
+[Name:Steam Summer Sale Border, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Steam Summer Sale Border", "Steam Summer Sale Border")
+{
+Disabled
+Portal Blue
+Portal Orange
+Neon
+}
+
+Banner("4plug/4plug_images/logo_custom.png", "auto", "topleft");
+
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:Chat Positions, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("Chat Positions", "Chat Positions")
+{
+Lower Small (default)
+Middle Small
+Up Small
+Lower Big
+Middle Big
+Up Big
+}
+
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+
+Banner("4plug/4plug_images/hud.png", "auto", "topleft");
+
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:Crosshair Hud Type, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+GlobalComboBox("Crosshair Hud Type", "Crosshair Hud Type")
+{
+Default
+OFF
+}
+
+Banner("4plug/4plug_images/misc.png", "auto", "topleft");
+
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+Banner("4plug/4plug_images/transparentv.png", "auto", "topleft");
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:EXPERIMENTAL Cart BG Glow, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("EXPERIMENTAL Cart BG Glow", "EXPERIMENTAL Cart BG Glow")
+{
+OFF (Default)
+ON (Forces Transparent V.)
+}
+[Border:0, FG:#1C1B1C]
+Banner("4plug/4plug_images/glowbg.png", "auto", "topleft");
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+
+[Name:EXPLOIT No Scope, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("EXPLOIT No Scope", "EXPLOIT No Scope")
+{
+OFF (Default)
+ON
+}
+[Border:0, FG:#1C1B1C]
+Banner("4plug/4plug_images/noscope.png", "auto", "topleft");
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:EXPLOIT Square Shadows, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("EXPLOIT Square Shadows", "EXPLOIT Square Shadows")
+{
+OFF (Default)
+ON
+}
+[Border:0, FG:#1C1B1C]
+Banner("4plug/4plug_images/squares.png", "auto", "topleft");
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:Borders, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("Borders", "Borders")
+{
+Default
+Old
+Flat
+NoBorder
+}
+
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:Fonts, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("Fonts", "Fonts")
+{
+TF2 Build
+TF2
+Axis_(ToonHud)
+Montserrat_(ToonHud)
+Heavy_(7HUD)
+Renogare
+}
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+
+[Border:0, FG:#1C1B1C]
+[Name:Team Colored Line On Health, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+GlobalComboBox("Team Colored Line On Health", "Team Colored Line On Health")
+{
+OFF (Default)
+ON
+}
+[Border:0, FG:#1C1B1C]
+Banner("4plug/4plug_images/teamline.png", "auto", "topleft");
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:ADDON Transparent Viewmodel (doesnt works on dx81 or lower), Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+GlobalComboBox("ADDON Transparent Viewmodel (doesnt works on dx81 or lower)", "ADDON Transparent Viewmodel (doesnt works on dx81 or lower)")
+{
+OFF (Default)
+ON
+}
+Banner("4plug/4plug_images/transparentv.png", "auto", "topleft");
+
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:PRINCIPAL Health-HP Color, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("PRINCIPAL Health-HP Color", "PRINCIPAL Health-HP Color")
+{
+White
+Blue
+Green
+Yellow
+Gray
+Gold
+}
+[Border:0, FG:#1C1B1C]
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:PRINCIPAL Ammo Color, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("PRINCIPAL Ammo Color", "PRINCIPAL Ammo Color")
+{
+White
+Blue
+Green
+Yellow
+Gray
+Gold
+}
+[Border:0, FG:#1C1B1C]
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:PRINCIPAL Ammo Reserve Color, Default:Lower, FG:#7A5EF8, BG:#5094AF, Border:0]
+GlobalComboBox("PRINCIPAL Ammo Reserve Color", "PRINCIPAL Ammo Reserve Color")
+{
+White
+Blue
+Green
+Yellow
+Gray
+Gold
+}
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:Damage Number - Outline, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+GlobalComboBox("Damage Number - Outline", "Damage Number - Outline")
+{
+On
+Off
+}
+Banner("4plug/4plug_images/managers/thumbnailBannerBottom.png", "auto", "topleft");
+[Name:Damage Number - Minus Toggle, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+GlobalComboBox("Damage Number - Minus Toggle", "Damage Number - Minus Toggle")
+{
+Off
+On
+}
+Banner("4plug/4plug_images/minus.png", "auto", "topleft");
+#if Damage Number - Outline == "On"
+{
+	#if Damage Number - Minus Toggle == "On"
+	{
+	Copy("4plug/4plug_overrides/Extra/d_withminus_o_on.res", "resource/min-def/extra/dmg_account.res");
+	}
+	#if Damage Number - Minus Toggle == "Off"
+	{
+	Copy("4plug/4plug_overrides/Extra/d_nominus_o_on.res", "resource/min-def/extra/dmg_account.res");
+	}
+}
+#if Damage Number - Outline == "Off"
+{
+	#if Damage Number - Minus Toggle == "On"
+	{
+	Copy("4plug/4plug_overrides/Extra/d_withminus_o_off.res", "resource/min-def/extra/dmg_account.res");
+	}
+	#if Damage Number - Minus Toggle == "Off"
+	{
+	Copy("4plug/4plug_overrides/Extra/d_nominus_o_off.res", "resource/min-def/extra/dmg_account.res");
+	}
+}
+
+
+#if Borders == "Default"
+{
+Copy("4plug/4plug_overrides/Border/def.res", "_jofrenew/_customization/4plug/border.res");
+}
+#if Borders == "Old"
+{
+Copy("4plug/4plug_overrides/Border/old.res", "_jofrenew/_customization/4plug/border.res");
+}
+#if Borders == "Flat"
+{
+Copy("4plug/4plug_overrides/Border/flat.res", "_jofrenew/_customization/4plug/border.res");
+}
+#if Borders == "NoBorder"
+{
+Copy("4plug/4plug_overrides/Border/null.res", "_jofrenew/_customization/4plug/border.res");
+}
+
+#if Fonts == "Heavy_(7HUD)"
+{
+Copy("4plug/4plug_overrides/Fonts/Heavy.res", "_jofrenew/_customization/4plug/Font.res");
+}
+#if Fonts == "TF2 Build"
+{
+Copy("4plug/4plug_overrides/Fonts/TF2.res", "_jofrenew/_customization/4plug/Font.res");
+}
+#if Fonts == "TF2"
+{
+Copy("4plug/4plug_overrides/Fonts/TF2_.res", "_jofrenew/_customization/4plug/Font.res");
+}
+#if Fonts == "Montserrat_(ToonHud)"
+{
+Copy("4plug/4plug_overrides/Fonts/Montserrat.res", "_jofrenew/_customization/4plug/Font.res");
+}
+#if Fonts == "Axis_(ToonHud)"
+{
+Copy("4plug/4plug_overrides/Fonts/Axis.res", "_jofrenew/_customization/4plug/Font.res");
+}
+#if Fonts == "Renogare"
+{
+Copy("4plug/4plug_overrides/Fonts/Renogare.res", "_jofrenew/_customization/4plug/Font.res");
+}
+#if Team Colored Line On Health == "OFF (Default)
+{
+Copy("4plug/4plug_overrides/empty.txt", "resource/shortcut/team_color_line_sc.res");
+}
+#if Team Colored Line On Health == "ON"
+{
+Copy("4plug/4plug_overrides/TeamColoredLine/team_color_line_sc_on.res", "resource/shortcut/team_color_line_sc.res");
+}
+
+#if ADDON Transparent Viewmodel (doesnt works on dx81 or lower) == "OFF (Default)"
+{
+Copy("4plug/4plug_overrides/empty.txt", "resource/shortcut/transparent_view_sc.res");
+
+}
+#if ADDON Transparent Viewmodel (doesnt works on dx81 or lower) == "ON"
+{
+Copy("4plug/4plug_overrides/TransparentViewmodel/transparent_view_sc_on.res", "resource/shortcut/transparent_view_sc.res");
+}
+
+
+#if PRINCIPAL Health-HP Color == "White"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Vida/Blanco.res", "_jofrenew/_customization/4plug/ColorVida.res");
+}
+#if PRINCIPAL Health-HP Color == "Blue"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Vida/Azul.res", "_jofrenew/_customization/4plug/ColorVida.res");
+}
+#if PRINCIPAL Health-HP Color == "Green"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Vida/VerdeLima.res", "_jofrenew/_customization/4plug/ColorVida.res");
+}
+#if PRINCIPAL Health-HP Color == "Yellow"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Vida/Amarillo.res", "_jofrenew/_customization/4plug/ColorVida.res");
+}
+#if PRINCIPAL Health-HP Color == "Gray"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Vida/Gris.res", "_jofrenew/_customization/4plug/ColorVida.res");
+}
+#if PRINCIPAL Health-HP Color == "Gold"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Vida/Oro.res", "_jofrenew/_customization/4plug/ColorVida.res");
+}
+
+
+#if PRINCIPAL Ammo Color == "White"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Municion/Blanco.res", "_jofrenew/_customization/4plug/ColorMunicion.res");
+}
+#if PRINCIPAL Ammo Color == "Blue"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Municion/Azul.res", "_jofrenew/_customization/4plug/ColorMunicion.res");
+}
+#if PRINCIPAL Ammo Color == "Green"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Municion/VerdeLima.res", "_jofrenew/_customization/4plug/ColorMunicion.res");
+}
+#if PRINCIPAL Ammo Color == "Yellow"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Municion/Amarillo.res", "_jofrenew/_customization/4plug/ColorMunicion.res");
+}
+#if PRINCIPAL Ammo Color == "Gray"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Municion/Gris.res", "_jofrenew/_customization/4plug/ColorMunicion.res");
+}
+#if PRINCIPAL Ammo Color == "Gold"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/Municion/Oro.res", "_jofrenew/_customization/4plug/ColorMunicion.res");
+}
+
+
+#if PRINCIPAL Ammo Reserve Color == "White"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/MunicionReserva/Blanco.res", "_jofrenew/_customization/4plug/ColorMunicionReserva.res");
+}
+#if PRINCIPAL Ammo Reserve Color == "Blue"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/MunicionReserva/Azul.res", "_jofrenew/_customization/4plug/ColorMunicionReserva.res");
+}
+#if PRINCIPAL Ammo Reserve Color == "Green"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/MunicionReserva/VerdeLima.res", "_jofrenew/_customization/4plug/ColorMunicionReserva.res");
+}
+#if PRINCIPAL Ammo Reserve Color == "Yellow"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/MunicionReserva/Amarillo.res", "_jofrenew/_customization/4plug/ColorMunicionReserva.res");
+}
+#if PRINCIPAL Ammo Reserve Color == "Gray"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/MunicionReserva/Gris.res", "_jofrenew/_customization/4plug/ColorMunicionReserva.res");
+}
+#if PRINCIPAL Ammo Reserve Color == "Gold"
+{
+Copy("4plug/4plug_overrides/ColoresPrincipales/MunicionReserva/Oro.res", "_jofrenew/_customization/4plug/ColorMunicionReserva.res");
+}
+#if Steam Summer Sale Border == "Disabled"
+{
+Copy("4plug/4plug_overrides/empty.txt", "ui_overrides/resource/ui/custom/firstrun/s_border.res");
+}
+#if Steam Summer Sale Border == "Portal Orange"
+{
+Copy("4plug/4plug_overrides/summersale/orange.res", "ui_overrides/resource/ui/custom/firstrun/s_border.res");
+}
+#if Steam Summer Sale Border == "Portal Blue"
+{
+Copy("4plug/4plug_overrides/summersale/azul.res", "ui_overrides/resource/ui/custom/firstrun/s_border.res");
+}
+#if Steam Summer Sale Border == "Neon"
+{
+Copy("4plug/4plug_overrides/summersale/neon.res", "ui_overrides/resource/ui/custom/firstrun/s_border.res");
+}
+#if Chat Positions == "Lower Small (default)"
+{
+Copy("4plug/4plug_overrides/ChatPosition/Chat_Lower.res", "_jofrenew/_customization/resource/ui/basechat.res");
+}
+#if Chat Positions == "Middle Small"
+{
+Copy("4plug/4plug_overrides/ChatPosition/Chat_Middle.res", "_jofrenew/_customization/resource/ui/basechat.res");
+}
+#if Chat Positions == "Up Small"
+{
+Copy("4plug/4plug_overrides/ChatPosition/Chat_upper.res", "_jofrenew/_customization/resource/ui/basechat.res");
+}
+#if Chat Positions == "LowerBig"
+{
+Copy("4plug/4plug_overrides/ChatPosition/Chat_lower_big.res", "_jofrenew/_customization/resource/ui/basechat.res");
+}
+#if Chat Positions == "Middle Big"
+{
+Copy("4plug/4plug_overrides/ChatPosition/Chat_middle_big.res", "_jofrenew/_customization/resource/ui/basechat.res");
+}
+#if Chat Positions == "Up Big"
+{
+Copy("4plug/4plug_overrides/ChatPosition/Chat_upper_big.res", "_jofrenew/_customization/resource/ui/basechat.res");
+}
+
+#if Crosshair Hud Type == "Default"
+{
+
+Copy("4plug/4plug_overrides/HPExtraBorders/extra_borders_cross_sc_off.res", "ui_overrides/scripts/shortcut/old/extra_borders_cross_sc.res");
+}
+#if Crosshair Hud Type == "OFF"
+{
+Copy("4plug/4plug_overrides/WeaponCrosshairSwitcher/OFF.res", "ui_overrides/resource/ui/custom/+weaponcrosshair.res");
+Copy("4plug/4plug_overrides/HPExtraBorders/extra_borders_cross_sc_off.res", "ui_overrides/scripts/shortcut/old/extra_borders_cross_sc.res");
+}
+
+#if EXPLOIT No Scope == "OFF (Default)"
+{
+Copy("4plug/4plug_overrides/NoScope/noscopeOFF.txt", "ui_overrides/scripts/hudanimations_tf_noscope.txt");
+}
+#if EXPLOIT No Scope == "ON"
+{
+Copy("4plug/4plug_overrides/NoScope/noscopeON.txt", "ui_overrides/scripts/hudanimations_tf_noscope.txt");
+}
+#if EXPLOIT Square Shadows == "OFF (Default)"
+{
+Copy("4plug/4plug_overrides/empty.txt", "ui_overrides/scripts/stupidshadows.res");
+Copy("4plug/4plug_overrides/empty.txt", "cfg/hud_cfg/addon1.cfg");
+}
+#if EXPLOIT Square Shadows == "ON"
+{
+Copy("4plug/4plug_overrides/SquareShadows/ON.res", "ui_overrides/scripts/stupidshadows.res");
+Copy("4plug/4plug_overrides/SquareShadows/addon1.cfg", "cfg/hud_cfg/addon1.cfg");
+}
+
+#if EXPERIMENTAL Cart BG Glow == "OFF (Default)"
+{
+Copy("4plug/4plug_overrides/CartGlow/OFF.txt", "ui_overrides/scripts/hudanimations_tf_glow.txt");
+}
+#if EXPERIMENTAL Cart BG Glow == "ON (Forces Transparent V.)"
+{
+Copy("4plug/4plug_overrides/CartGlow/ON.txt", "ui_overrides/scripts/hudanimations_tf_glow.txt");
+}

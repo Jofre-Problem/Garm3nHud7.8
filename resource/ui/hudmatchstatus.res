@@ -1,0 +1,5 @@
+	#base	"../../#users/custom/resource/ui/hudmatchstatus.res"
+	#base	"../../_stream/resource/ui/hudmatchstatus.res"
+	#base	"../../_jofrenew/_customization/resource/ui/hudmatchstatus.res"	
+	#base	"../../_jofrenew/resource/ui/hudmatchstatus.res"
+	#base	"../../_tf2hud/resource/ui/hudmatchstatus.res"

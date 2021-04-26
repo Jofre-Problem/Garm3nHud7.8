@@ -1,0 +1,8 @@
+	#base	"../../#users/custom/resource/ui/huddamageaccount.res"
+	#base 	"../../_jofrenew/_customization/resource/ui/huddamageaccount - style.res"	
+	#base	"../../_jofrenew/_customization/resource/ui/dmg_spot.res"
+	#base 	"../../_jofrenew/_customization/resource/ui/dmg_value_toggle.res"
+	#base 	"../../_jofrenew/_customization/resource/ui/dmg_float.res"
+	#base	"../../_stream/resource/ui/huddamageaccount.res"
+	#base	"../../_jofrenew/resource/ui/huddamageaccount.res"
+	#base	"../../_tf2hud/resource/ui/huddamageaccount.res"

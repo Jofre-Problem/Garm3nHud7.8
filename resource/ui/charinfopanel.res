@@ -1,0 +1,5 @@
+	#base	"../../#users/custom/resource/ui/charinfopanel.res"
+	#base	"../../_jofrenew/resource/#beta/menu_reloadbutton.res"	
+	#base	"../../_stream/resource/ui/charinfopanel.res"
+	#base	"../../_jofrenew/resource/ui/charinfopanel.res"
+//	#base	"../../_tf2hud/resource/ui/charinfopanel.res"

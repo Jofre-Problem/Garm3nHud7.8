@@ -1,0 +1,5 @@
+	#base	"../../#users/custom/resource/ui/spectatortournament.res"
+	#base 	"../../_jofrenew/resource/#beta/spec.res"
+	#base	"../../_stream/resource/ui/spectatortournament.res"
+	#base	"../../_jofrenew/resource/ui/spectatortournament.res"
+	#base	"../../_tf2hud/resource/ui/spectatortournament.res"

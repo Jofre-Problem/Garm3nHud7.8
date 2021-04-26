@@ -1,0 +1,1 @@
+#base "../../_customization/resource/ui/basechat.res"
