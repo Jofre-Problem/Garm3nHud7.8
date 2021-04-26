@@ -1,0 +1,7 @@
+#base "res_base/obj/buildingstatusitem.res"
+#base "res_base/obj/bg.res"
+#base "res_base/obj/notbuiltpanel.res"
+#base "res_base/obj/builtpanel/main.res"
+#base "res_base/obj/builtpanel/health.res"
+#base "res_base/obj/buildingpanel/main.res"
+#base "res_base/obj/runningpanel/main.res"

@@ -1,0 +1,16 @@
+"_jofrehud/resource/#jofre/blur_bg.res"
+{
+"BlurMainBG"
+{
+"ControlName""ImagePanel"
+"fieldName""BlurMainBG"
+"xpos""0"
+"ypos""0"
+"zpos""-5"
+"wide""f0"
+"tall""f0"
+"visible""1"
+"enabled""1"
+"scaleimage""1"
+}
+}

@@ -1,0 +1,1 @@
+#base "../base/filesv1/shade/main.res"
